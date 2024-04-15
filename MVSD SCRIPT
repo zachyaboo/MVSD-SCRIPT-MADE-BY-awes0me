@@ -36,6 +36,9 @@ end)
   	end    
 })
 
-MainSection:NewButton("Esp", "ButtonInfo", function()
-    loadstring(game:HttpGet("https://pastebin.com/raw/zhR1sJAQ"))()
-end)
+MainTab:AddButton({
+	Name = "ESP",
+	Callback = function()
+      		loadstring(game:HttpGet("https://pastebin.com/raw/zhR1sJAQ"))()
+  	end    
+})
