@@ -42,3 +42,16 @@ MainTab:AddButton({
       		loadstring(game:HttpGet("https://pastebin.com/raw/zhR1sJAQ"))()
   	end    
 })
+
+local MainTab = Window:MakeTab({
+    Name = "Credits",
+    Icon = "rbxassetid://17079723134"
+})
+
+MainTab:AddLabel("UI:Orion")
+
+MainTab:AddLabel("Made By:awes0me & Ksawier")
+
+MainTab:AddLabel("Made In April 13, 2024")
+
+MainTab:AddLabel("Have Fun!")
