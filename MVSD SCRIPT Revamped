@@ -55,3 +55,11 @@ MainTab:AddLabel("Made By:awes0me & Ksawier")
 MainTab:AddLabel("Made In April 13, 2024")
 
 MainTab:AddLabel("Have Fun!")
+
+local AkaliNotif = loadstring(game:HttpGet("https://raw.githubusercontent.com/Kinlei/Dynissimo/main/Scripts/AkaliNotif.lua"))();
+local Notify = AkaliNotif.Notify;
+Notify({
+Description = "THANKS FOR USING MY SCRIPT!";
+Title = "SCS";
+Duration = 10;
+});
